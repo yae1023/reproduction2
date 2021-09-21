@@ -263,8 +263,7 @@
 }
 
 footer{
-  /* text-align: center; */
-  height: 350px;
+  /* height: 350px; */
   background-color: #3f434a;
   color: #fff;
 }
@@ -275,7 +274,8 @@ footer{
 
 }
 .foot_ol p{
-  padding: 0 1% 15px 0;
+  padding: 0 20px 15px 0;
+  /* padding-right: 20px; */
   font-size: 14px;
 }
 .foot_icon{
@@ -285,5 +285,5 @@ footer{
   text-align: center;
   font-size: 13px;
   color: rgba(255,255,255,0.3);
-  padding-top: 150px;
+  padding: 100px 0 50px 0;
 }
