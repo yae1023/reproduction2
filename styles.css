@@ -1,0 +1,289 @@
+.header{
+  text-align: center;
+  height: 690px;
+  background-image: url(head_back.jpg);
+  background-size: cover;
+  color: #fff;
+}
+.logo{
+  padding-top: 180px;
+  width: 136px;
+}
+.header_p1{
+  padding-top: 30px;
+  font-size: 20px; 
+}
+.dowanload{
+  padding: 183px 0 50px 0;
+}
+.apple{
+  width: 160px;
+  padding: 6px;
+}
+.google{
+  width: 160px;
+  padding: 6px;
+}
+.header_p2{
+  font-size: 13px;
+}
+
+
+.contents1{
+  /* height: 500px; */
+  display: flex;
+  color: #fff;
+}
+.cont1{
+  width: 33.333333333%;
+  padding: 0 4% 200px 4%;
+}
+.cont1_1{
+  background-image: url(cont1_1.jpg);
+  background-size: cover;
+}
+.cont1_2{
+  background-image: url(cont1_2.jpg);
+  background-size: cover;
+}
+.cont1_3{
+  background-image: url(cont1_3.jpg);
+  background-size: cover;
+}
+.cont1_h2{
+  padding: 60px 0 10px 0;
+  font-size: 23px;
+  line-height: 40px;
+  
+}
+.cont1_p{
+  font-size: 15px;
+  line-height: 25px;
+}
+
+
+.contents2{
+  color: #3f434a;
+  text-align: center;
+  height: 520px;
+  display: flex;
+}
+.cont2{
+  width: 50%;
+}
+.cont2_1{
+  background-color: #f5f5f5;
+}
+.tate {     /*画像を縦並びに*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; /*基準位置*/
+}
+.tate img{
+  position: absolute; /*相対位置*/
+}
+.cont2_h2{
+  padding: 60px 0 10px 0;
+  font-size: 18px;
+  line-height: 30px;
+}
+.cont2_p{
+  padding-top: 230px;
+  font-size: 15px;
+  line-height: 25px;
+}
+.cont2_p span{
+  font-size: 20px;
+}
+.cont2_p2{
+  font-size: 13px;
+  padding-top: 20px;
+  line-height: 20px;
+}
+.cont2_2 h2{
+  padding-top: 150px;
+}
+.off{
+  width: 125px;
+}
+.cont2_img1{
+  width: 180px;
+  top: 20px;
+}
+.cont2_img2{
+  width: 160px;
+  padding-top: 15px;
+}
+
+
+.contents3{
+  background-color: #ead5dc;
+  color: #3f434a;
+  text-align: center;
+  display: flex; 
+  justify-content: center;
+}
+.cont3_1{
+  padding-top: 200px;
+}
+.cont3_h2{
+  padding:100px 0 80px 0;
+  font-size: 22px;
+}
+.cont3_li{
+  padding-bottom: 30px;
+}
+.cont3_li h2{
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+.cont3_li p{
+  font-size: 14px;
+  line-height: 23px; 
+  padding-bottom: 30px; 
+}
+
+
+.contents4{
+  color: #3f434a;
+  text-align: center;
+  background-color: #e7e3df;
+  display: flex;
+  justify-content: center
+}
+.cont4_h2{
+  padding: 60px 0 20px 0;
+  font-size: 20px;
+  line-height: 30px;
+}
+.cont4_p1{
+  font-size: 14px;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 2px;
+  display: inline-block;  /*文字列幅に*/
+}
+.cont4_p2{
+  font-size: 14px;
+  line-height: 22px;
+  padding-top: 80px ;
+  width: 350px;
+  text-align: left;
+  margin: 0 auto;
+}
+.glasses{
+  width: 85px;
+  height: 100px;
+  display: inline-flex;
+  flex-direction: row;  
+  margin: 20px;
+}
+.glass1{
+  background-image: url(cont4_1.jpg);
+  background-size: cover;
+}
+.glass2{
+  background-image: url(cont4_2.jpg);
+  background-size: cover;
+}
+.glass3{
+  background-image: url(cont4_3.jpg);
+  background-size: cover;
+}
+.glasses p{
+  margin: 0 auto;
+  font-size: 12px;
+  padding-top: 80px;
+}
+.cont4_p3{
+  border: 2px #3f434a solid;
+  line-height: 20px;
+  font-size: 14px;
+  padding: 5px 8px;
+  border-radius: 2px;
+  display: inline-block;  /*文字列幅に*/
+}
+.cont4_p{
+  font-size: 14px;
+  line-height: 20px;
+  display: inline-block;
+  margin: 0 8px;
+}
+.cont4_p4 span{
+  font-size: 17px;
+}
+.cont4_p4{
+  font-size: 12px;
+}
+.cont4_p5{
+  font-size: 12px;
+  padding: 12px 0 80px 0;
+
+}
+
+
+.contents5{
+  text-align: center;
+}
+.cont5_h2{
+  font-size: 20px;
+  padding-top: 70px;
+  line-height: 30px;
+}
+.cont5_ol{
+  display: flex;  /*横並び*/
+  justify-content: center;  /*中央揃え*/
+  padding: 30px 0 80px 0;
+}
+.cont5_li{
+  padding: 0 4%;
+}
+.cont5_li h2{
+  font-size: 18px;
+}
+.cont5_li p{
+  font-size: 14px;
+  line-height: 22px;
+  padding-top: 18px;
+}
+
+.contents6{
+  text-align: center;
+  background-color: #efdfc5;
+  display: flex;
+  justify-content: center;
+}
+.cont6{
+  padding: 60px 3%;
+}
+.contents6 h2{
+  padding: 20px 0 0 10px;
+  line-height: 20px;
+}
+
+footer{
+  /* text-align: center; */
+  height: 350px;
+  background-color: #3f434a;
+  color: #fff;
+}
+.foot_ol{
+  display: flex;
+  justify-content: center;  /*中央揃え*/
+  padding-top: 60px;
+
+}
+.foot_ol p{
+  padding: 0 1% 15px 0;
+  font-size: 14px;
+}
+.foot_icon{
+  display: flex;
+}
+.foot_p{
+  text-align: center;
+  font-size: 13px;
+  color: rgba(255,255,255,0.3);
+  padding-top: 150px;
+}
